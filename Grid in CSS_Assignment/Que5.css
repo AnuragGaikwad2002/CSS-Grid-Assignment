@@ -1,0 +1,13 @@
+.conatiner {
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: auto auto;
+    /* justify-items: center; */
+}
+
+.conatiner > div {
+    padding: 5px;
+    background-color: aqua;
+    border: 1px solid red;
+}
+

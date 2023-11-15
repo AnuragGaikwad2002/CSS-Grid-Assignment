@@ -1,0 +1,34 @@
+.mainBox {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.box {
+    background-color: bisque;
+    color: #fff;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: 200;
+    
+}
+
+.boxA {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.boxB {
+    grid-column: 3;
+    grid-row: 1/3;
+}
+
+.boxC {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.boxD {
+    grid-column: 2;
+    grid-row: 2;
+}
